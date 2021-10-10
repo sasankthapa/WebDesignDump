@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma+2&display=swap');
+
+*{
+    font-family:'Baloo Tamma 2', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+}
+
+html,body{
+    height:100%;
+}
+
+h1{
+    padding:2vh;
+    text-align:center;
+    font-size: 2rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    padding-top:20vh;
+}
+
+.checkbox{
+    text-align: center;
+    height: auto;
+    width:50%;
+    display: block;
+}
+
+form{
+    display: block;
+}
+
+.timerbox{
+    height: auto;
+    width:50%;
+    text-align: center;
+}
+
+.timer{
+    font-size: 10rem;
+}
+
+.start{
+    background-color: rgb(100, 202, 100);
+    border:2px solid black;
+    height:40px;
+    width:100px;
+    font-size: larger;
+    outline:none;
+    transition: background-color 0.5s ease;
+}
+
+.start.clicked{
+    background-color: rgb(73, 165, 73);
+}

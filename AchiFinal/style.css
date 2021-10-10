@@ -1,0 +1,59 @@
+.overlay{
+    position: absolute;
+    top:20px;
+    left:10px;
+    color:white;
+    font-size: 42px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(88, 88, 83);
+}
+
+.gameboard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+table {
+    table-layout:fixed;
+    width: 501px;
+    height: 501px;
+    position: relative;
+    border-spacing: 3vh;
+    z-index: 2;
+}
+
+table tr{
+    height: 167px;
+    width:167px;;
+}
+
+table td{
+    width:25%;
+    height: 25%;;
+    text-align: center;
+    position: relative;
+}
+
+.img{
+    margin:0;
+    height: 60px;
+    width:60px;
+}
+
+img.board{
+    margin: 0;
+    position: absolute;
+    height: 501px;
+    width: 501px;
+    z-index: 1;
+    pointer-events: none;
+}

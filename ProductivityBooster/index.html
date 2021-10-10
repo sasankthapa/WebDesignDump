@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <title>BOOST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onBlur=“window.focus()”>
+    <!--<div id="main" class="active">
+    <header><i class="fas fa-angle-left"></i></i>School<i class="fas fa-angle-right"></i></header>
+    <main>
+        <div class="sticky" style="top:20px;left:20px" draggable="true">
+            <div class="noteheading">Test Note</div>
+            <div class="notedesc">Test description</div>
+        </div>
+    </main>
+    </div>-->
+    <button id="addbtn" class="btn">
+        <i class="fas fa-plus"> Add note.</i>
+    </button>
+    <div id="add-container" class="add-container">
+        <button id="hide" class="btn-ghost"><i class="fas fa-times"></i></button>
+        <h1>Add note</h1>
+        <div class="form-group">
+        <label for="heading">Note Heading:</label>
+        <textarea id="heading" placeholder="Note Heading."></textarea>
+        </div>
+        <div class="form-group">
+        <label for="description">Note Description:</label>
+        <textarea id="description" placeholder="Note Description."></textarea>    
+        </div>
+        <button id="addnote" class="btn-not-ghost"><i class="fas fa-plus"></i> Add</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
